@@ -135,19 +135,7 @@
       padding: 110px 24px;
     }
 
-    #about {
-      #service {
-  background:
-    linear-gradient(
-      rgba(0,0,0,0.35),
-      rgba(0,0,0,0.35)
-    ),
-    url("about-bg.png");
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+    .bg-section {
   background:
     linear-gradient(
       rgba(0,0,0,0.35),
@@ -215,7 +203,8 @@
     }
 
     .works {
-      .flow-section {
+  background: transparent;
+}
   background:
     linear-gradient(
       rgba(0,0,0,0.35),
@@ -343,7 +332,7 @@
     </div>
   </section>
 
-  <section id="about">
+  <section id="about" class="bg-section">
     <div class="section-inner">
       <p class="section-title">ABOUT</p>
       <h2>Éltについて</h2>
@@ -356,7 +345,7 @@
     </div>
   </section>
 
-  <section id="service">
+  <section id="service" class="bg-section">
     <div class="section-inner">
       <p class="section-title">SERVICE</p>
       <h2>事業内容</h2>
@@ -398,7 +387,7 @@
     </div>
   </section>
 
-  <section id="works" class="works">
+  <section id="works" class="works bg-section">
     <div class="section-inner">
       <p class="section-title">WORKS</p>
       <h2>実績</h2>
@@ -414,7 +403,7 @@
     </div>
   </section>
 
-  <section class="flow-section">
+  <section class="flow-section bg-section">
   <div class="section-inner">
     <p class="section-title">FLOW</p>
       <h2>ご依頼の流れ</h2>
